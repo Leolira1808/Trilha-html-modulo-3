@@ -1,0 +1,105 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+header img {
+    width: 200px;
+}
+
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+/* Conteudo Principal da Página */
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.table>*>tr>td {
+    border: 1px solid #54595d;
+    border-color: rgba(84, 89, 93, 0.3);
+    padding: 0.2em;
+}
+
+td {
+    font-size: 100%;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th {
+    background-color: aqua;
+    border: 1px solid #54595d;
+    border-color: rgba(84, 89, 93, 0.3);
+    padding: 0.2em;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.video {
+    text-align: center;
+}
+
+/* Nav ou hiperlinks */
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
